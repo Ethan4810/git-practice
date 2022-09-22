@@ -1,32 +1,110 @@
-# My Project Plan  
-***Note***: This document is written merely as an illustrative example, and does not provide any working guide to an actual project.  
+# Week 04: Lecture Note
 
-### Proposal  
----
+**Shell**: The shell is a command line interpreter and invokes kernel level commands. It also can be used as a scripting language to design your own utilities.
 
-I am planning to make a computer vision software that detects objects in images.  
-In order to build it, I will use opencv, deep learning libraries, such as [TensorFlow](https://github.com/tensorflow/tensorflow) or [PyTorch](https://github.com/pytorch/pytorch), and other open source softwares.  
-
-For example, the objects in the following images were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):  
-
-![Images](https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png)
+## **Basic Commands**
 
 ---
 
-### Dependencies  
-- python
-- opencv-python
-- tensorflow
-- openmlab
-- package manager
+**pwd**: shows the current path in a hierarchial directory
 
-### Installation  
-In a bash terminal, run the following commands (*Do Not actually run these commands in your computer*):  
 ```sh
-$ sudo apt update  
-$ conda create -n cv_detection   
-$ conda activate cv_detection  
-$ python --version  
-$ python example.py  
+$ pwd
 ```
 
+---
+
+**cd**: change directory
+
+```sh
+$ cd
+```
+
+- Arguments  
+  / root  
+  . current level directory  
+  .. upper level directory  
+  ~ home of current user  
+  /[directory name] absolute path  
+  ./[directory name] relative path  
+  ../[directory name] relative path
+
+---
+
+**ls**: list files and directories
+
+```sh
+$ ls
+```
+
+- Options  
+  -l show detailed information (long format)  
+  -lh same as above, but size in units
+
+---
+
+**clear**: clear display
+
+```sh
+$ clear
+```
+
+## **Manipulation Commands**
+
+---
+
+**cp**: copy files and directories
+
+```sh
+$ cp
+```
+
+---
+
+**mv**: move files and directories or rename them
+
+```sh
+$ mv
+```
+
+---
+
+**rm**: delete files and directories permanently and irreversibly
+
+```sh
+$ rm
+```
+
+---
+
+**mkdir**: make a new directory
+
+```sh
+$ mkdir
+```
+
+## **Help Commands**
+
+---
+
+**help**: get information regarding a built-in shell command
+
+```sh
+$ help
+```
+
+---
+
+**man**: get a detailed manual of a command
+
+```sh
+$ man
+```
+
+---
+
+**exit**: exit terminal
+
+```sh
+$ exit
+```
