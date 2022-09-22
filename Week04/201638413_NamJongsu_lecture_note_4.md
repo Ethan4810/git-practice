@@ -4,8 +4,6 @@
 
 ## **Basic Commands**
 
----
-
 **pwd**: shows the current path in a hierarchial directory
 
 ```sh
@@ -51,8 +49,6 @@ $ clear
 
 ## **Manipulation Commands**
 
----
-
 **cp**: copy files and directories
 
 ```sh
@@ -84,8 +80,6 @@ $ mkdir
 ```
 
 ## **Help Commands**
-
----
 
 **help**: get information regarding a built-in shell command
 
