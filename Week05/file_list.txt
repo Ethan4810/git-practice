@@ -1,0 +1,3 @@
+total 8
+-rw-r--r--  1 jsnam  staff   434B Sep 29 17:11 201638413_NamJongsu_lecture_note_5.md
+-rw-r--r--  1 jsnam  staff     0B Sep 29 17:14 file_list.txt
