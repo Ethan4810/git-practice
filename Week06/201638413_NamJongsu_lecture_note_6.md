@@ -78,12 +78,8 @@ $ git commit -m “commit message”
 
 ---
 
-Change branch name.
+Change branch name. (master -> main)
 
 ```sh
-$ git branch
 $ git branch -m master main
-$ git branch
-$ git status
-$ git
 ```
