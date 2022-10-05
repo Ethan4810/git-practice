@@ -1,0 +1,4 @@
+apple
+student
+class
+home

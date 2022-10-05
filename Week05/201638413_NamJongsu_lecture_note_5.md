@@ -98,7 +98,7 @@ $ ls -l \
 
 ```sh
 $ history history_command.txt
-$ cat history
+$ cat history_command.txt
 ```
 
 ---
